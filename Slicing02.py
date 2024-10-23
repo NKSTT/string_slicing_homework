@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a = s[-4:-1:1]
+    b = s[-1]
+    return "{}{}".format(a,b)
+print (main("codesshooluz"))

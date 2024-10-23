@@ -7,4 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[:-n] if n else s
+print (main('apple',1))
